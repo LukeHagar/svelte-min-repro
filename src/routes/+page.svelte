@@ -1,4 +1,4 @@
-<script lang="ts">
+<script>
 	// Docs
 	import DocsShell from '$lib/DocsShell.svelte';
 
@@ -21,8 +21,8 @@
 		'December'
 	];
 
-	let index: any;
-	let indexValue: any;
+	let index;
+	let indexValue;
 </script>
 
 <Counter bind:index bind:currentValue={indexValue} values={monthValues} />

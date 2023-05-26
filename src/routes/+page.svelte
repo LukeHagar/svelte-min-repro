@@ -22,16 +22,16 @@
 	];
 
 	let index;
-	let indexValue;
+	let currentValue;
 </script>
 
-<Counter bind:index bind:currentValue={indexValue} values={monthValues} />
+<Counter bind:index bind:currentValue values={monthValues} />
 
 <DocsShell>
 	<svelte:fragment slot="usage">
-		<div>Current Value: {indexValue}</div>
+		<div>Current Value: {currentValue}</div>
 		<div>Index: {index}</div>
 	</svelte:fragment>
-	<div>Current Value: {indexValue}</div>
+	<div>Current Value: {currentValue}</div>
 	<div>Index: {index}</div>
 </DocsShell>

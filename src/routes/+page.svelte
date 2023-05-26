@@ -32,4 +32,6 @@
 		<div>Current Value: {indexValue}</div>
 		<div>Index: {index}</div>
 	</svelte:fragment>
+	<div>Current Value: {indexValue}</div>
+	<div>Index: {index}</div>
 </DocsShell>

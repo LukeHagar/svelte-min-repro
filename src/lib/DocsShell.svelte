@@ -7,4 +7,4 @@
 	<slot name="usage">(usage)</slot>
 </LayoutPage>
 
-<slot name="usage">(usage)</slot>
+<slot>(default)</slot>
